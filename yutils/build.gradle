@@ -1,15 +1,29 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish { // 新增
+
+    userOrg = 'yysleep'// 注册bintray时的username
+
+    groupId = 'com.yy'// 项目包名
+
+    artifactId = 'YUtils'// 项目名
+
+    publishVersion = '1.0.0'// 发布版本号
+
+    desc = 'for android utils'// 项目描述，可选项
+
+    website = 'https://github.com/yysleep/YUtils'// 项目站点，可选项
+
+}
 
 android {
     compileSdkVersion 27
-
-
-
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
 
     buildTypes {

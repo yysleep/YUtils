@@ -1,4 +1,4 @@
-package com.yy.util;
+package com.yy.yutils;
 
 import android.app.Application;
 

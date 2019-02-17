@@ -2,7 +2,7 @@ package com.demo.yy.demo;
 
 import android.app.Application;
 
-import com.yy.util.YUtils;
+import com.yy.yutils.YUtils;
 
 public class DemoApplication extends Application {
 
